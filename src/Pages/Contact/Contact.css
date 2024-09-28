@@ -1,0 +1,30 @@
+
+  
+  .adresscard {
+ 
+ text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 3px 3px;
+   border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right,#f3b10b, #7f1e03 );
+
+    height: 150px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contacttext{
+    color: white;
+  }
+  
+  .adressicon {
+font-size: 35px;
+    margin-bottom: 5px;
+    color: #f5f3f2;
+  }
+  .adress{
+    background-color: rgba(255, 250, 239, 1);
+  }
+ 
+  

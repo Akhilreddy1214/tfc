@@ -1,0 +1,44 @@
+
+
+.nav-pills .nav-link {
+    color: #555;
+}
+
+.nav-pills .nav-link.active {
+    color: white;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+.PaymentFUllPage{
+
+    width: 100%;
+    height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.tab-pane{
+    min-height: 300px;
+}
+input {
+    border-color: transparent; /* Remove default border color */
+    box-shadow: none; /* Remove any box shadow */
+    outline: none;
+}
+
+/* Remove hover effect */
+input:hover {
+    border-color: transparent !important; /* Override Bootstrap hover color */
+    outline: white;
+
+}
+input:focus{
+    border-color: transparent !important;
+    outline:white;
+}

@@ -1,0 +1,100 @@
+.CarouselImg{
+    width: 300px;
+    height: 150px;
+    margin-left: 5px;
+}
+
+.categorycard{
+  
+  border-radius: 20px;
+  height: 100%;
+  border: 2px solid #7c1d02;
+}
+.card-img-top {
+    position: relative;
+  }
+  .carouselconatiner{
+/* background: linear-gradient(to right,#40110c , #f4cc67); */
+background: linear-gradient(to right,#4e1100 , #f3b10b);
+/* background: linear-gradient(to left,rgba(144, 68, 0, 1) , rgba(71, 12, 0, 1)); */
+
+
+
+
+
+  }
+  .img-overlay {
+    position: absolute;
+  top: 20%;
+  left: 20%;
+    display: none;
+  }
+ 
+  
+  .card-img-top:hover .img-overlay {
+    display: block; 
+    opacity: 1;
+  }
+  .card-img-top:hover .card-img-top{
+    opacity: 0.5;
+  }
+  .card-img-top:hover   .btn-fav{
+    top: 10%;
+    left: 10px;
+    bottom: 30px;
+  }
+
+  .nav .nav-link{
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  .MenuHaed{
+    background-color: #4e1100;
+    color: white;
+    text-align: center;
+  }
+  .MenuHaed:hover{
+    background-color: #4e1100;
+    color: white;
+    text-align: center;
+  }
+
+  
+  .pickimg {
+  
+    height: 200px;
+    opacity: 1;
+    border-radius: 20px;
+  }
+  .picklestyle{
+    color: #4e1100;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .picklestyles{
+    color: #f0ebea;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-style: ITALIC;
+    font-weight: bolder;
+font-size: 30PX;
+  }
+  .overlay{
+    text-align: center;
+  }
+ 
+ 
+  
+  .ordernow {
+    color: #fff;
+    background-color: #4e1100;
+   
+  }
+  .ordernow:hover{
+    color: #fff;
+    background-color: #7c1d02;
+   
+  }
+ 

@@ -1,0 +1,120 @@
+.footer-area{
+    padding: 40px 0px;
+    background-color: rgba(255, 250, 239, 1);
+    color: #4e1100;
+}
+.footer-area a{
+    text-decoration: none;
+}
+.footer-area .footer-heading{
+    font-size: 20px;
+    color: #4e1100;
+}
+.footer-area .footer-underline{
+    height: 1px;
+    width: 70px;
+    background-color: #4e1100;
+    margin: 10px 0px;
+}
+.copyright-area{
+    padding: 14px 0px;
+    background-color: #4e1100;
+}
+.copyright-area p{
+    margin-bottom: 0px;
+    color: #fff;
+}
+.copyright-area .social-media{
+    text-align: end;
+}
+.copyright-area .social-media a{
+    margin: 0px 10px;
+    color: #fff;
+    width: 20px;
+}
+.Footerlink a{
+    color: #4e1100;
+    margin-top: 3px;
+    font-weight: 500
+}
+.Footerlink a:hover{
+    color: #4e1100;
+  text-decoration: underline;
+}
+
+  
+  .subscribe-button {
+    border: none;
+    background-color: #4e1100;
+    text-decoration: none;
+    border-color: #4e1100;
+    font-size: 17px;
+    color: #fff;
+    border-top-right-radius: .5em;
+    border-bottom-right-radius: .5em;
+    cursor: pointer;
+  }
+
+
+  ul {
+  list-style: none;
+}
+
+.example-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.example-1 .icon-content {
+  margin: 0 10px;
+  position: relative;
+}
+.example-1 .icon-content .tooltip {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4e1100;
+  color: #fff;
+  padding: 6px 15px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+.example-1 .icon-content:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  top: 50px;
+}
+.example-1 .icon-content .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #4d4d4d;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.example-1 .icon-content .link:hover {
+  box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+}
+.example-1 .icon-content .link svg {
+  width: 40px;
+  height: 40px;
+}
+.example-1 .icon-content .link[data-social="Facebook"]:hover {
+  color: #1a70f0;
+}
+.example-1 .icon-content .link[data-social="Whatsaap"]:hover {
+  color: #0ab41b;
+}
+.example-1 .icon-content .link[data-social="Instagram"]:hover {
+  color: #ea4c89;
+}
+.example-1 .icon-content .link[data-social="Twitter"]:hover {
+  color: #0088cc;
+}

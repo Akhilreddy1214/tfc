@@ -1,0 +1,35 @@
+.productNameLink {
+    text-decoration: none;
+    font-size: 18px;
+ 
+  color: black;
+    text-transform: uppercase;
+  }
+  .ProductCardCart{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 10px;
+  }
+  .SmallHeading{
+    font-size: 18px;
+    font-weight: 600;
+    color: #4e1100;
+  }
+  .mainHeading{
+    color: white;
+    background-color: #4e1100;
+    padding: 5px;
+    text-align: center;
+  }
+  .ButtonAll{
+    color: white;
+    background-color: #4e1100;
+  }
+  .ButtonAll:hover{
+    color: white;
+    background-color: rgba(78, 17, 0, 0.768);
+    ;
+  }
+  .CaartIcon{
+
+    color: #4e1100;
+  }

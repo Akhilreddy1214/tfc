@@ -1,0 +1,22 @@
+.categoryITEMS{
+    cursor: pointer;
+    background-color: #4e1100;
+}
+.scrollable-list {
+    max-height: 500PX; /* Adjust this value as needed */
+    overflow-y: auto;
+  }
+  .SideBarLabel{
+    font-size: 14px;
+    margin-top: 4px;
+    cursor: pointer;
+  list-style-type: none;
+  }
+  .SideBarLabel:hover{
+text-decoration: underline;
+  }
+  .clickmore{
+    background-color: #5b1400; 
+    color: white;
+     outline: none;
+  }
